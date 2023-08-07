@@ -1,0 +1,43 @@
+.list-item2 {
+  display: flex;
+  background-color: #092e33;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.currency {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+.currency-name {
+  font-size: 25px;
+  color: white;
+}
+.values {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+.value {
+  color: white;
+  font-size: 25px;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  border: aqua solid 2px;
+  border-radius: 15px;
+  width: 80vw;
+}

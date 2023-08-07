@@ -1,0 +1,33 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.currency {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 20vw;
+}
+.logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+.currency-name {
+  font-size: 25px;
+  color: white;
+}
+.values {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.value {
+  color: white;
+  font-size: 25px;
+}
